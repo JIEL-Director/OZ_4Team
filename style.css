@@ -8,7 +8,7 @@
    ========================================================= */
 
 
-/* ===== [공통] 색·글꼴 변수 | 담당: 팀장 ===== */
+/* ===== [공통] 색·글꼴 변수 | 담당: 김민석(팀장) ===== */
 :root {
   --color-shell: #f1f8f7;      /* 페이지 바탕: 옅은 알껍데기 */
   --color-egg: #a8dad3;        /* 알 색 */
@@ -27,7 +27,7 @@
 }
 
 
-/* ===== [공통] 기본 설정 | 담당: 팀장 ===== */
+/* ===== [공통] 기본 설정 | 담당: 김민석(팀장) ===== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -137,7 +137,7 @@ button:focus-visible {
 }
 
 
-/* ===== 머리말 | 담당: 팀장 ===== */
+/* ===== 머리말 | 담당: 김민석(팀장) ===== */
 .site-header {
   position: sticky;
   top: 0;
@@ -189,7 +189,7 @@ button:focus-visible {
 }
 
 
-/* ===== 섹션 1. 첫 화면 | 담당: (확정 후 기입) ===== */
+/* ===== 섹션 1. 첫 화면 | 담당: 백종현 ===== */
 .hero {
   padding-top: 88px;
   padding-bottom: 104px;
@@ -303,7 +303,7 @@ button:focus-visible {
 }
 
 
-/* ===== 섹션 2. 문제·해결 (주요 기능) | 담당: (확정 후 기입) ===== */
+/* ===== 섹션 2. 문제·해결 (주요 기능) | 담당: 김승주 ===== */
 .problem {
   background-color: var(--color-white);
   border-top: 2px solid var(--color-twig);
@@ -394,7 +394,7 @@ button:focus-visible {
 }
 
 
-/* ===== 섹션 3. 사용 방법·예시 | 담당: (확정 후 기입) ===== */
+/* ===== 섹션 3. 사용 방법·예시 | 담당: 노화성 ===== */
 .how-steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -627,7 +627,7 @@ button:focus-visible {
 }
 
 
-/* ===== 섹션 4. 마지막 안내 | 담당: (확정 후 기입) ===== */
+/* ===== 섹션 4. 마지막 안내 | 담당: 곽재영 ===== */
 .cta {
   background-color: var(--color-twig);
   color: var(--color-white);
@@ -666,7 +666,7 @@ button:focus-visible {
 }
 
 
-/* ===== 꼬리말 | 담당: 팀장 ===== */
+/* ===== 꼬리말 | 담당: 김민석(팀장) ===== */
 .site-footer {
   padding: 28px 24px;
   text-align: center;
