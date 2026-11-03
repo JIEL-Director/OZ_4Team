@@ -19,17 +19,20 @@
     - 팀장이 먼저 만든 틀입니다. 섹션 담당자는 자기 섹션 블록만 고쳐서 보내 주세요.
     - CSS는 class로, JS는 id로 요소를 찾습니다.
       class 이름은 담당자가 바꿔도 되지만, id 이름은 바꾸기 전에 팀장에게 먼저 말해 주세요.
-    - 이 예시 코드는 김민석이 Claude(AI)와 함께 작성했습니다.
   -->
 
   <!-- ===== 머리말 | 담당: 팀장 ===== -->
   <header class="site-header">
     <a href="#hero" class="site-logo">MVP 둥지</a>
-    <nav class="site-nav">
-      <a href="#problem">둥지가 필요한 이유</a>
-      <a href="#how">이용 방법</a>
-      <a href="#cta">함께하기</a>
-    </nav>
+    <div class="site-header-right">
+      <nav class="site-nav">
+        <a href="#problem">둥지가 필요한 이유</a>
+        <a href="#how">이용 방법</a>
+        <a href="#cta">함께하기</a>
+      </nav>
+      <!-- 메뉴 옆 행동 버튼: 휴대폰에서 메뉴가 숨어도 이 버튼은 남음 -->
+      <a href="#demo" class="btn btn-primary site-cta">피드백 남겨 보기</a>
+    </div>
   </header>
 
   <main>
@@ -64,27 +67,41 @@
       </div>
     </section>
 
-    <!-- ===== 섹션 2. 문제·해결 | 담당: (확정 후 기입) ===== -->
+    <!-- ===== 섹션 2. 문제·해결 (주요 기능) | 담당: (확정 후 기입) ===== -->
     <section id="problem" class="problem">
       <div class="section-inner">
         <h2 class="section-title">랜딩페이지는 만들었는데, 잘 만든 걸까요?</h2>
-        <div class="problem-grid">
-          <div class="problem-side problem-before">
-            <h3 class="problem-side-title">혼자 만들 때는</h3>
-            <ul class="problem-list">
-              <li>열심히 만든 MVP를 어디에 올려야 할지 모르겠어요</li>
-              <li>지인 말고는 솔직하게 봐 줄 사람이 없어요</li>
-              <li>올려도 아무도 안 볼까 봐 막막해요</li>
-            </ul>
-          </div>
-          <div class="problem-side problem-after">
-            <h3 class="problem-side-title">둥지에서는</h3>
-            <ul class="problem-list">
-              <li>같은 고민을 하는 예비 창업가끼리 서로의 MVP를 봐 줘요</li>
-              <li>피드백을 남기면 모이를 받고, 모이가 쌓이면 등급이 올라가요</li>
-              <li>다른 MVP를 둘러보며 내 MVP에 쓸 아이디어를 얻어요</li>
-            </ul>
-          </div>
+
+        <!-- 문제: 예비 창업가가 하는 말 세 가지 -->
+        <ul class="problem-pains">
+          <li class="problem-pain">열심히 만든 MVP를 어디에 올려야 할지 모르겠어요</li>
+          <li class="problem-pain">지인 말고는 솔직하게 봐 줄 사람이 없어요</li>
+          <li class="problem-pain">올려도 아무도 안 볼까 봐 막막해요</li>
+        </ul>
+
+        <!-- 해결: 둥지의 주요 기능 네 가지 -->
+        <h3 class="problem-features-title">둥지에서는 이렇게 달라져요</h3>
+        <div class="problem-features">
+          <article class="problem-feature">
+            <span class="problem-feature-icon" aria-hidden="true">🥚</span>
+            <h4 class="problem-feature-name">부담 없이 올리기</h4>
+            <p class="problem-feature-desc">완성된 제품이 아니어도 괜찮아요. 랜딩페이지 단계에서 먼저 보여 줘요.</p>
+          </article>
+          <article class="problem-feature">
+            <span class="problem-feature-icon" aria-hidden="true">💬</span>
+            <h4 class="problem-feature-name">솔직한 피드백</h4>
+            <p class="problem-feature-desc">같은 고민을 하는 예비 창업가가 지인보다 솔직하게 봐 줘요.</p>
+          </article>
+          <article class="problem-feature">
+            <span class="problem-feature-icon" aria-hidden="true">👀</span>
+            <h4 class="problem-feature-name">둘러보며 배우기</h4>
+            <p class="problem-feature-desc">다른 MVP가 어떻게 만들어졌는지 보며 내 MVP에 쓸 아이디어를 얻어요.</p>
+          </article>
+          <article class="problem-feature">
+            <span class="problem-feature-icon" aria-hidden="true">🐣</span>
+            <h4 class="problem-feature-name">모이와 등급</h4>
+            <p class="problem-feature-desc">피드백을 남길수록 모이가 쌓이고, 알에서 어른새로 등급이 올라가요.</p>
+          </article>
         </div>
       </div>
     </section>
