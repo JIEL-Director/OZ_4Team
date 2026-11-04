@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 410" fill="none" role="img" aria-labelledby="title desc">
+ <title id="title">알에서 성체 새로 자라는 MVP</title>
+ <desc id="desc">MVP 아이디어가 알에서 시작해 아기새, 성체새로 성장하는 세 단계 그림</desc>
+ <defs>
+  <linearGradient id="shell" x1="120" y1="110" x2="245" y2="305" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF9E7"/><stop offset="1" stop-color="#F3DB9A"/></linearGradient>
+  <linearGradient id="chick" x1="411" y1="141" x2="592" y2="307" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD975"/><stop offset="1" stop-color="#F5A83A"/></linearGradient>
+  <linearGradient id="adult" x1="716" y1="120" x2="882" y2="308" gradientUnits="userSpaceOnUse"><stop stop-color="#A8DAD3"/><stop offset="1" stop-color="#5DA38E"/></linearGradient>
+  <filter id="shadow" x="35" y="30" width="930" height="340" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="10"/></filter>
+ </defs>
+ <!-- Soft stage halos -->
+ <ellipse cx="188" cy="337" rx="117" ry="15" fill="#161D18" opacity=".18" filter="url(#shadow)"/>
+ <ellipse cx="500" cy="337" rx="117" ry="15" fill="#161D18" opacity=".18" filter="url(#shadow)"/>
+ <ellipse cx="812" cy="337" rx="117" ry="15" fill="#161D18" opacity=".18" filter="url(#shadow)"/>
+ <circle cx="188" cy="196" r="126" fill="#F9E9B8"/>
+ <circle cx="500" cy="196" r="126" fill="#FFE59A"/>
+ <circle cx="812" cy="196" r="126" fill="#D5EEE2"/>
+ <!-- Progress arrows -->
+ <path d="M322 189h42m-12-13 13 13-13 13M634 189h42m-12-13 13 13-13 13" stroke="#FFC233" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- Stage 1: an MVP egg, just beginning to crack -->
+ <g stroke="#3E2F23" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M120 222c4-70 32-121 68-121 39 0 66 53 70 121 3 51-26 83-69 83-45 0-72-32-69-83Z" fill="url(#shell)" stroke-width="8"/>
+  <path d="m121 226 24-12 21 15 22-13 22 15 23-14 24 13" fill="#FFF9E7" stroke-width="8"/>
+  <path d="m150 255 23-12 21 15 21-12 19 12" stroke="#E2B74B" stroke-width="7"/>
+  <path d="M139 167c11-32 24-47 39-55" stroke="#FFF" stroke-width="8"/>
+  <rect x="150" y="195" width="78" height="38" rx="19" fill="#3E2F23" stroke-width="3"/>
+  <text x="189" y="221" text-anchor="middle" fill="#FFF9E7" stroke="none" font-family="Arial,sans-serif" font-size="20" font-weight="800" letter-spacing="1">MVP</text>
+  <path d="m93 103-3-18m17 22 11-14m-31 24-18-1" stroke="#FFFDF2" stroke-width="6"/>
+ </g>
+ <!-- Stage 2: curious hatchling with shell cap -->
+ <g stroke="#3E2F23" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M425 244c0-54 32-91 80-91 49 0 80 38 80 91 0 40-34 64-81 64-45 0-79-24-79-64Z" fill="url(#chick)" stroke-width="8"/>
+  <path d="M459 170c-6-22 5-42 27-49 21-7 43 4 49 23-19-5-39 0-54 15-8 7-15 11-22 11Z" fill="#FFF2D1" stroke-width="7"/>
+  <path d="M466 242c-20 9-31 24-34 42 27-2 45-11 57-28m37-12c19 10 29 24 32 42-25-2-43-10-55-27" fill="#F6B848" stroke-width="7"/>
+  <circle cx="474" cy="218" r="7" fill="#3E2F23" stroke="none"/><circle cx="527" cy="218" r="7" fill="#3E2F23" stroke="none"/>
+  <path d="m489 232 12 11 12-11" fill="#E77E43" stroke-width="5"/>
+  <path d="M471 304v18m45-18v18" stroke-width="7"/><path d="M460 322h22m23 0h22" stroke="#E77E43" stroke-width="7"/>
+  <path d="M457 196c9-9 18-12 27-10m31 0c9-2 18 1 27 10" stroke="#F7C655" stroke-width="7"/>
+ </g>
+ <!-- Stage 3: confident adult bird, bright crest and full wings -->
+ <g stroke="#3E2F23" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M710 243c-2-48 21-83 61-96 18-42 55-61 91-44 29 14 41 43 30 73 26 14 40 39 37 67-5 46-48 68-111 68-66 0-106-21-108-68Z" fill="url(#adult)" stroke-width="8"/>
+  <path d="M766 175c-3-39 9-67 36-87 3 31 16 50 37 59m-7-5c12-34 34-52 64-56-12 29-13 52-2 73" fill="#FFC233" stroke-width="7"/>
+  <path d="M724 238c25-48 65-62 105-40-5 41-31 66-77 74-12-7-21-18-28-34Z" fill="#D8EEE4" stroke-width="7"/>
+  <path d="M810 187c29-22 60-23 91-6 7 4 9 11 4 18-17 24-46 34-84 29l-18-4" fill="#E7B75C" stroke-width="8"/>
+  <circle cx="847" cy="177" r="7" fill="#3E2F23" stroke="none"/>
+  <path d="M894 198c-10 6-21 7-32 2" stroke="#3E2F23" stroke-width="4"/>
+  <path d="M742 265c32-8 57-2 77 19-25 19-52 24-80 14m65-27c30-5 53 4 69 27-26 14-51 15-75 3" stroke="#43816D" stroke-width="7"/>
+  <path d="M758 306v17m45-17v17" stroke-width="7"/><path d="M747 323h22m23 0h22" stroke="#E2A340" stroke-width="7"/>
+  <path d="M704 111v-18m-9 9h18m151-57v-18m-9 9h18" stroke="#FFFDF2" stroke-width="6"/>
+ </g>
+ <!-- labels -->
+ <g fill="#3E2F23" font-family="Noto Sans KR,sans-serif" text-anchor="middle">
+  <text x="188" y="385" font-size="22" font-weight="700">MVP 아이디어</text>
+  <text x="500" y="385" font-size="22" font-weight="700">첫 검증</text>
+  <text x="812" y="385" font-size="22" font-weight="700">함께 성장</text>
+ </g>
+</svg>
